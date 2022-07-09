@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 
-function Recoverpassword() {
+function Recover() {
 
   const [isLoading, setIsLoading] = useState(false);
   const { register, handleSubmit, formState: { errors } } = useForm()
@@ -34,21 +34,8 @@ function Recoverpassword() {
           <input type="button" className='btn btn-primary' value="Siguiente" />
         </div>
       </form>
-      <form>
-        <div className='col-md-5 container text-center'>
-          <span>Nueva contraseña</span>
-          <input
-            type="password"
-            placeholder='Introduzca nueva contraseña'
-            className='form-control mb-2'
-          />
-        </div>
-        <div className='d-grid gap-2 col-4 mx-auto pt-4'>
-          <input type="button" className='btn btn-primary' value="Guardar" />
-        </div>
-      </form>
     </div>
   )
 }
 
-export default Recoverpassword
+export default Recover

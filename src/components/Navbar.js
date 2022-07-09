@@ -13,7 +13,7 @@ function Navbar() {
           <NavLink className="nav" to='/register'>Registrarse</NavLink>
         </li>
         <li>
-          <NavLink className="nav" to='/recoverpassword'>Recuperar contraseña</NavLink>
+          <NavLink className="nav" to='/recover'>Recuperar contraseña</NavLink>
         </li>
       </ul>
     </div>);
